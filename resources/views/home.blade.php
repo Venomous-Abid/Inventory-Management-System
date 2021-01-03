@@ -22,7 +22,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title color-w"><i class="fa fa-user-secret"></i> Managers </h1>
-                            <h4 class="subtitle color-lighter-1">154.609</h4>
+                            <h4 class="subtitle color-lighter-1">{{ $getManagerCount }}</h4>
                         </div>
                     </a>
                 </div>
@@ -33,7 +33,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title color-light-1"> <i class="fa fa-user-plus"></i> Staffs </h1>
-                            <h4 class="subtitle">213213</h4>
+                            <h4 class="subtitle">{{ $getStaffCount }}</h4>
                         </div>
                     </a>
                 </div>
@@ -44,7 +44,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title color-darker-2"> <i class="fa fa-cutlery"></i> Products </h1>
-                            <h4 class="subtitle color-darker-1">213213</h4>
+                            <h4 class="subtitle color-darker-1">{{ $getProCount }}</h4>
                         </div>
                     </a>
                 </div>
@@ -55,7 +55,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title"> <i class="fa fa-shopping-cart"></i> Stocks </h1>
-                            <h4 class="subtitle">$14.550,00</h4>
+                            <h4 class="subtitle">{{ $getStockCount }}</h4>
                         </div>
                     </a>
                 </div>
@@ -71,7 +71,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title color-w"><i class="fa fa-glass"></i> Category </h1>
-                            <h4 class="subtitle color-lighter-1">154.609</h4>
+                            <h4 class="subtitle color-lighter-1">{{ $getCatCount }}</h4>
                         </div>
                     </a>
                 </div>
@@ -82,7 +82,7 @@
                     <a href="#">
                         <div class="panel-content">
                             <h1 class="title color-light-1"> <i class="fa fa-glass"></i> Sub-Category </h1>
-                            <h4 class="subtitle">213213</h4>
+                            <h4 class="subtitle">{{ $getSubcatCount }}</h4>
                         </div>
                     </a>
                 </div>

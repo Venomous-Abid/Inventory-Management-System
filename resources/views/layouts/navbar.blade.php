@@ -3,7 +3,7 @@
     <div class="leftside-header">
         <div class="logo">
             <a href="#" class="on-click">
-                <h4><span style="color:red; font-size: 22px; font-weight: bold;">RAK</span> <span style="color:white; font-size: 23px;">Ceramics</span></h4>
+                <h4><span style="color:red; font-size: 22px; font-weight: bold;"> RAK</span> <span style="color:white; font-size: 23px;">Ceramics</span></h4>
             </a>
         </div>
         <div id="menu-toggle" class="visible-xs toggle-left-sidebar" data-toggle-class="left-sidebar-open" data-target="html">
@@ -209,7 +209,7 @@
                     <img alt="profile photo" src="{{ asset('images/avatar/avatar_user.jpg') }}" />
                 </div>
                 <div class="user-info">
-                    <span class="user-name">Jane Doe</span>
+                    <span class="user-name">{{Auth::user()->name}}</span>
                     <span class="user-profile">Admin</span>
                 </div>
                 <i class="fa fa-plus icon-open" aria-hidden="true"></i>

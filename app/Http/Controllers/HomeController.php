@@ -2,6 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Product;
+use App\Category;
+use App\Sub_category;
+use App\Manager;
+use App\Staff;
+use App\Stock;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +30,19 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $getProCount = Product::count();
+        $getCatCount = Category::count();
+        $getSubcatCount = Sub_category::count();
+        $getStaffCount = Staff::count();
+        $getManagerCount = Manager::count();
+        $getStockCount = Stock::count();
+        return view('home',[
+          'getProCount' => $getProCount,
+          'getCatCount' => $getCatCount,
+          'getSubcatCount' => $getSubcatCount,
+          'getStaffCount' => $getStaffCount,
+          'getManagerCount' => $getManagerCount,
+          'getStockCount' => $getStockCount,
+        ]);
     }
 }
