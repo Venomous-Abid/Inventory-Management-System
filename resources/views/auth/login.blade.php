@@ -31,7 +31,8 @@
         <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
         <!--LOGO-->
         <div class="logo">
-            <img alt="logo" src="images/logo-dark.png" />
+            <img alt="logo" src="images/logo.png" style="background-image:cover; width: 100px; height: 100px;" />
+            <h2 style="color:#ffffff;">Inventory Management System</h2>
         </div>
         <div class="box">
             <!--SIGN IN FORM-->
